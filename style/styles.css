@@ -15,10 +15,15 @@
     src: url(/assets/fonts/Montauk-Regular.otf);
 }
 
+.text-xs{
+    font-size: 14px;
+}
+
 body{
     background-image: url('/assets/bgtexture.jpg');
     background-repeat: repeat;
 }
+
 
 .fugaz-text{
     font-family: 'FugazOne';
@@ -57,3 +62,28 @@ body{
     width: 25%;
 }
 /* footer */
+
+/* Menu */
+
+.our-Menu{
+    color: var(--dark-red);
+    font-family: 'Montauk';
+}
+
+.menu-h1{
+    font-family: 'FugazOne';
+}
+
+.menu-text-color{
+    color: var(--dark-red);
+}
+
+.card-title-menu{
+    font-family: 'FugazOne';
+}
+
+.menu-img{
+    height: 100%;
+    width: 100%;
+}
+
