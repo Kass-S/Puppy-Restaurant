@@ -19,3 +19,41 @@ body{
     background-image: url('/assets/bgtexture.jpg');
     background-repeat: repeat;
 }
+
+.fugaz-text{
+    font-family: 'FugazOne';
+    color: var(--dark-red);
+}
+
+.montauk-text{
+    font-family: 'Montauk';
+    color: var(--dark-red);
+}
+
+
+/* Header */
+.nav-btn{
+    font-family: 'FugazOne';
+    color: var(--dark-red);
+    background-color: transparent;
+    border: none;
+    padding-left: 2rem;
+}
+
+.nav-btn:hover{
+    color: var(--red);
+}
+/* header */
+
+
+
+
+/* Footer */
+.footer-height{
+    height: 6rem;
+}
+
+.company-img{
+    width: 25%;
+}
+/* footer */
