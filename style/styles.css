@@ -48,6 +48,10 @@ body{
 .nav-btn:hover{
     color: var(--red);
 }
+
+.page-active{
+    color: var(--red);
+}
 /* header */
 
 
