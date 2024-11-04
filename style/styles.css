@@ -19,3 +19,13 @@ body{
     background-image: url('/assets/bgtexture.jpg');
     background-repeat: repeat;
 }
+
+p {
+    font-family: 'Montauk';
+    color: #5f002b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'FugazOne';
+    color: #5f002b;
+}
