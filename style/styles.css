@@ -7,3 +7,8 @@
     font-family: 'Montauk';
     src: url(/assets/fonts/Montauk-Regular.otf);
 }
+
+body{
+    background-image: url('/assets/bgtexture.jpg');
+    background-repeat: repeat;
+}
