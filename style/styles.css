@@ -54,9 +54,6 @@ body{
 }
 /* header */
 
-
-
-
 /* Footer */
 .footer-height{
     height: 6rem;
@@ -91,3 +88,14 @@ body{
     width: 100%;
 }
 
+
+
+
+
+
+/* Photos */
+.photo-title-text{
+    background-color: var(--light);
+    text-align: center;
+}
+/* photos */
