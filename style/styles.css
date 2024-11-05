@@ -146,8 +146,9 @@ body{
     background-color: rgba(245, 245, 220, 0);
 }
 
-/* photos */
 
+
+/*About me Media Queries start*/
 @media (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
@@ -156,7 +157,6 @@ body{
         padding-left: 0px;
     }
 }
-
 @media  (max-width:992px) and (min-width:764px){
     .About-Page-Header-Image{
         padding-right: 0px;
@@ -207,6 +207,11 @@ body{
         padding-right: 0px;
     }
 }
+/*About me Media Queries end*/
+
+
+/* photos */
+
 
 
 @media screen and (max-width: 768px){
