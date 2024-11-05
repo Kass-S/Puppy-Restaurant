@@ -73,23 +73,6 @@ body{
 .index-hero{
     width: 100%;   
 }
-
-.index-img-single{
-    height: fit-content;
-    width: fit-content;
-}
-
-.index-box{
-    background-color: var(--light);
-    padding: 0%;
-}
-
-.index-img-three{
-    background-image: url(/assets/HomeImage.jpg);
-    background-repeat: no-repeat;
-    height: 11rem;
-    width: 100%;
-}
 /* index */
 
 
