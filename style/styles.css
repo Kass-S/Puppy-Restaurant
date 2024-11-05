@@ -140,6 +140,10 @@ body{
     background-color:var(--red);
 }
 
+.border-bottom-line{
+    border-bottom: 1px solid var(--red);
+}
+
 /* Catering */
 #Catering-Maine{
     width: 100%;
