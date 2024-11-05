@@ -40,6 +40,10 @@ body{
     color: var(--dark-red);
 }
 
+.montauk-text-light{
+    font-family: 'Montauk-Light';
+    color: var(--dark-red);
+}
 
 /* Header */
 .nav-btn{
@@ -47,7 +51,7 @@ body{
     color: var(--dark-red);
     background-color: transparent;
     border: none;
-    padding-left: 2rem;
+    padding: 5px;
 }
 
 .nav-btn:hover{
@@ -67,6 +71,16 @@ body{
 .company-img{
     width: 25%;
 }
+
+.footer-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-display-logo{
+    display: flex;
+    align-items: end;
+}
 /* footer */
 
 /* Index */
@@ -79,16 +93,11 @@ body{
 
 /* Menu */
 
-.our-Menu{
-    color: var(--dark-red);
-    font-family: 'Montauk-Light';
-}
-
 .menu-items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
-    gap: 20px;
+    gap: 12px;
 }
 
 .menu-h1{
@@ -124,7 +133,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
-    gap: 24px;
+    gap: 12px;
 }
 
 /* Photos */
@@ -145,11 +154,16 @@ body{
     border: none;
     background-color: rgba(245, 245, 220, 0);
 }
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 12px;
+}
 
+/* photos */
 
-
-/*About me Media Queries start*/
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
     }
@@ -157,6 +171,7 @@ body{
         padding-left: 0px;
     }
 }
+
 @media  (max-width:992px) and (min-width:764px){
     .About-Page-Header-Image{
         padding-right: 0px;
@@ -207,14 +222,20 @@ body{
         padding-right: 0px;
     }
 }
-/*About me Media Queries end*/
-
-
-/* photos */
-
 
 
 @media screen and (max-width: 768px){
+    .footer-display{
+        display: flex;
+        justify-content: start;
+    }
+
+    .footer-display-logo{
+        display: flex;
+        align-items: start;
+    }
+    
+
     .company-img{
         width: 75%;
     }
@@ -223,6 +244,12 @@ body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto auto auto auto;
-        gap: 20px;
+        gap: 12px;
+    }
+    .photo-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        gap: 12px;
     }
 }
