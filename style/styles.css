@@ -132,6 +132,7 @@ body{
     width: 50px;
     border-radius: 100%;
     margin-bottom: 10px;
+    margin-right: 10px;
     display: flex;
     background-color: #FFFFFF00;
 }
