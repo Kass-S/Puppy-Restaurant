@@ -136,6 +136,7 @@ body{
     width: 50px;
     border-radius: 100%;
     margin-bottom: 10px;
+    margin-right: 10px;
     display: flex;
     background-color: #FFFFFF00;
 }
@@ -187,8 +188,7 @@ body{
     gap: 12px;
 }
 
-/* photos */
-
+/*About page media queries start*/
 @media screen and (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
@@ -248,6 +248,11 @@ body{
         padding-right: 0px;
     }
 }
+/*About page media queries*/
+
+
+/* photos */
+
 
 
 @media screen and (max-width: 768px){
