@@ -145,10 +145,15 @@ body{
     border: none;
     background-color: rgba(245, 245, 220, 0);
 }
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 12px;
+}
 
+/* photos */
 
-
-/*About me Media Queries start*/
 @media (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
@@ -157,6 +162,7 @@ body{
         padding-left: 0px;
     }
 }
+
 @media  (max-width:992px) and (min-width:764px){
     .About-Page-Header-Image{
         padding-right: 0px;
@@ -207,11 +213,6 @@ body{
         padding-right: 0px;
     }
 }
-/*About me Media Queries end*/
-
-
-/* photos */
-
 
 
 @media screen and (max-width: 768px){
@@ -224,5 +225,11 @@ body{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto auto auto auto;
         gap: 20px;
+    }
+    .photo-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        gap: 12px;
     }
 }
