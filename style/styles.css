@@ -160,6 +160,28 @@ body{
 /* photos */
 
 
+@media  (max-width:992px) and (min-width:764px){
+    .About-Page-Header-Image{
+        padding-right: 0px;
+    }
+    .About-Page-Card-Two{
+        padding-right: 0px;
+        border-radius: 50%;
+    }
+    .About-Page-Card-Three{
+        padding-left: 0px;
+        
+    }
+    .About-Page-Card-Four{
+        padding-right: 0px;
+    }
+    .About-Page-Card-Five{
+        padding-left: 0px;
+    }
+    .About-Page-Card-Six{
+
+    }
+}
 
 
 @media screen and (max-width: 768px){
