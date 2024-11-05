@@ -47,7 +47,7 @@ body{
     color: var(--dark-red);
     background-color: transparent;
     border: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 .nav-btn:hover{
@@ -66,6 +66,16 @@ body{
 
 .company-img{
     width: 25%;
+}
+
+.footer-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-display-logo{
+    display: flex;
+    align-items: end;
 }
 /* footer */
 
@@ -154,7 +164,7 @@ body{
 
 /* photos */
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
     }
@@ -216,6 +226,17 @@ body{
 
 
 @media screen and (max-width: 768px){
+    .footer-display{
+        display: flex;
+        justify-content: start;
+    }
+
+    .footer-display-logo{
+        display: flex;
+        align-items: start;
+    }
+    
+
     .company-img{
         width: 75%;
     }
