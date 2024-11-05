@@ -118,6 +118,27 @@ body{
     width: 100%;
 }
 
+.popoverimage{
+    border: 8px solid var(--light);
+}
+.centering{
+    display: flex;
+    justify-content: end;
+}
+#popoverbtn{
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: var(--dark-red);
+}
+
+#popoverbtn:hover{
+    background-color:var(--red);
+}
 
 /* Catering */
 #Catering-Maine{
