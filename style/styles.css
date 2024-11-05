@@ -133,11 +133,12 @@ body{
     border-radius: 100%;
     margin-bottom: 10px;
     display: flex;
-    background-color: var(--dark-red);
+    background-color: #FFFFFF00;
 }
 
-#popoverbtn:hover{
-    background-color:var(--red);
+
+.border-bottom-line{
+    border-bottom: 1px solid var(--red);
 }
 
 /* Catering */
