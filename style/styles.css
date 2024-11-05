@@ -98,4 +98,12 @@ body{
     background-color: var(--light);
     text-align: center;
 }
+
+.photo-width{
+    width: 100%;
+}
+
+.photo-boarder{
+    border: 8px solid var(--light);
+}
 /* photos */
