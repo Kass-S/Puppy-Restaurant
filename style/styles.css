@@ -146,6 +146,10 @@ body{
 
 
 @media screen and (max-width: 768px){
+    .company-img{
+        width: 50%;
+    }
+
     .menu-items{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
