@@ -45,6 +45,11 @@ body{
     color: var(--dark-red);
 }
 
+.around-center-display{
+    display: flex;
+    justify-content: space-around;
+}
+
 /* Header */
 .nav-btn{
     font-family: 'FugazOne';
@@ -75,11 +80,6 @@ body{
 
 .company-img{
     width: 25%;
-}
-
-.footer-display{
-    display: flex;
-    justify-content: space-around;
 }
 
 .footer-display-logo{
@@ -266,7 +266,7 @@ body{
         justify-content: end;
     }
     
-    .footer-display{
+    .around-center-display{
         display: flex;
         justify-content: center;
     }
