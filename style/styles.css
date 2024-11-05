@@ -21,7 +21,7 @@
 }
 
 .text-xs{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 body{
@@ -140,6 +140,12 @@ body{
 .photo-boarder{
     border: 8px solid var(--light);
 }
+
+#popover-button{
+    border: none;
+    background-color: rgba(245, 245, 220, 0);
+}
+
 /* photos */
 
 @media (min-width: 992px){
