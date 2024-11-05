@@ -15,6 +15,11 @@
     src: url(/assets/fonts/Montauk-Regular.otf);
 }
 
+@font-face{
+    font-family: 'Montauk-Light';
+    src: url(/assets/fonts/Montauk-Light.otf);
+}
+
 .text-xs{
     font-size: 12px;
 }
@@ -93,7 +98,14 @@ body{
 
 .our-Menu{
     color: var(--dark-red);
-    font-family: 'Montauk';
+    font-family: 'Montauk-Light';
+}
+
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
 }
 
 .menu-h1{
@@ -132,3 +144,15 @@ body{
     border: 8px solid var(--light);
 }
 /* photos */
+
+
+
+
+@media screen and (max-width: 768px){
+    .menu-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto auto auto;
+        gap: 20px;
+    }
+}
