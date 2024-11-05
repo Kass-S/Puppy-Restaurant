@@ -202,7 +202,12 @@ body{
         padding-left: 0px;
     }
 }
-
+@media (max-width:1199px) and (min-width:993px) {
+    .About-Page-Header-Image{
+        padding-right: 0px;
+    }
+    
+}
 @media  (max-width:992px) and (min-width:764px){
     .About-Page-Header-Image{
         padding-right: 0px;
