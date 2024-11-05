@@ -124,7 +124,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
-    gap: 20px;
+    gap: 24px;
 }
 
 /* Photos */
