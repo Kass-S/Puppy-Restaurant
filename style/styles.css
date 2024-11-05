@@ -145,7 +145,9 @@ body{
     display: flex;
     background-color: #FFFFFF00;
 }
-
+.zoom:hover {
+  transform: scale(1.25); 
+}
 
 .border-bottom-line{
     border-bottom: 1px solid var(--red);
