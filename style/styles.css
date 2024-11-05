@@ -61,6 +61,11 @@ body{
 .page-active{
     color: var(--red);
 }
+
+.header-flex{
+    display: flex;
+    justify-content: center;
+}
 /* header */
 
 /* Footer */
@@ -256,6 +261,11 @@ body{
 
 
 @media screen and (max-width: 768px){
+    .header-flex{
+        display: flex;
+        justify-content: end;
+    }
+    
     .footer-display{
         display: flex;
         justify-content: center;
