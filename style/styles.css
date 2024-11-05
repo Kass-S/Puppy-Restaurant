@@ -40,6 +40,10 @@ body{
     color: var(--dark-red);
 }
 
+.montauk-text-light{
+    font-family: 'Montauk-Light';
+    color: var(--dark-red);
+}
 
 /* Header */
 .nav-btn{
@@ -88,11 +92,6 @@ body{
 
 
 /* Menu */
-
-.our-Menu{
-    color: var(--dark-red);
-    font-family: 'Montauk-Light';
-}
 
 .menu-items{
     display: grid;
