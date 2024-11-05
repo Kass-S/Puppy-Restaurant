@@ -145,9 +145,23 @@ body{
     border: none;
     background-color: rgba(245, 245, 220, 0);
 }
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 12px;
+}
 
 /* photos */
 
+@media (min-width: 992px){
+    .About-Page-Card-Three{
+        padding-right: 0px;
+    }
+    .About-Page-Card-Four{
+        padding-left: 0px;
+    }
+}
 
 @media  (max-width:992px) and (min-width:764px){
     .About-Page-Header-Image{
@@ -159,16 +173,44 @@ body{
     }
     .About-Page-Card-Three{
         padding-left: 0px;
+        padding-right: 12px;
         
     }
     .About-Page-Card-Four{
         padding-right: 0px;
+        padding-left: 12px;
     }
     .About-Page-Card-Five{
         padding-left: 0px;
     }
+}
+@media (max-width: 764px) {
+    .About-Page-Header-Image{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .About-Page-Card-One{
+        padding-right: 0px;
+    }
+    .About-Page-Card-Two{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .About-Page-Card-Three{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .About-Page-Card-Four{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .About-Page-Card-Five{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
     .About-Page-Card-Six{
-
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -183,5 +225,11 @@ body{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto auto auto auto;
         gap: 20px;
+    }
+    .photo-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        gap: 12px;
     }
 }
