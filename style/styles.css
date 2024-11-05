@@ -73,23 +73,6 @@ body{
 .index-hero{
     width: 100%;   
 }
-
-.index-img-single{
-    height: fit-content;
-    width: fit-content;
-}
-
-.index-box{
-    background-color: var(--light);
-    padding: 0%;
-}
-
-.index-img-three{
-    background-image: url(/assets/HomeImage.jpg);
-    background-repeat: no-repeat;
-    height: 11rem;
-    width: 100%;
-}
 /* index */
 
 
@@ -141,7 +124,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
-    gap: 20px;
+    gap: 24px;
 }
 
 /* Photos */
@@ -185,6 +168,10 @@ body{
 
 
 @media screen and (max-width: 768px){
+    .company-img{
+        width: 75%;
+    }
+
     .menu-items{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
