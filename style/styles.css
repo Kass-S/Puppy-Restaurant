@@ -81,6 +81,10 @@ body{
     display: flex;
     align-items: end;
 }
+.footer-display-address{
+    display: flex;
+    justify-content: start;
+}
 /* footer */
 
 /* Index */
@@ -254,12 +258,18 @@ body{
 @media screen and (max-width: 768px){
     .footer-display{
         display: flex;
-        justify-content: start;
+        justify-content: center;
     }
 
     .footer-display-logo{
         display: flex;
-        align-items: start;
+        align-items: center;
+    }
+
+    .footer-display-address{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 
