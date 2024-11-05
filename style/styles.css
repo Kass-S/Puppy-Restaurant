@@ -15,6 +15,11 @@
     src: url(/assets/fonts/Montauk-Regular.otf);
 }
 
+@font-face{
+    font-family: 'Montauk-Light';
+    src: url(/assets/fonts/Montauk-Light.otf);
+}
+
 .text-xs{
     font-size: 14px;
 }
@@ -68,7 +73,7 @@ body{
 
 .our-Menu{
     color: var(--dark-red);
-    font-family: 'Montauk';
+    font-family: 'Montauk-Light';
 }
 
 .menu-h1{
