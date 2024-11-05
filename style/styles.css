@@ -140,6 +140,12 @@ body{
 .photo-boarder{
     border: 8px solid var(--light);
 }
+
+#popover-button{
+    border: none;
+    background-color: rgba(245, 245, 220, 0);
+}
+
 /* photos */
 
 
