@@ -202,6 +202,7 @@ body{
 }
 
 /*About page media queries start*/
+
 @media screen and (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
