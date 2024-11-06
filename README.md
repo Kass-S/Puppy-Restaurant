@@ -1,7 +1,7 @@
 # Hamster Hotel
 
 ### Kassandra Spacek / Santiago Montanez / Gianpaolo Reinares
-### 11/**/2024
+### 11/6/2024
 # "Challenge - Puppy Restaurant"
 ### Description: 
 In this project, you will take the following mockup and make it into a fully functioning and fully responsive website.
@@ -18,7 +18,7 @@ Your Project must be fully responsive and each member of the team must submit th
 
 
 ### _GitHub Repository Link:_
-[Puppy Restaurant GitHub Repository Link]()
+[Puppy Restaurant GitHub Repository Link](https://github.com/Kass-S/Puppy-Restaurant.git)
 
 
 This has been Peer Reviewed By: 
