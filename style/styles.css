@@ -209,10 +209,18 @@ body{
     .About-Page-Card-Four{
         padding-left: 0px;
     }
+    .img-resize{
+        height: 368px;
+        object-fit: fill;
+    }
 }
 @media (max-width:1199px) and (min-width:993px) {
     .About-Page-Header-Image{
         padding-right: 0px;
+    }
+    .img-resize{
+        height: 307.99px;
+        object-fit: fill;
     }
     
 }
