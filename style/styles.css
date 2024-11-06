@@ -130,6 +130,9 @@ body{
 .popoverimage{
     border: 8px solid var(--light);
 }
+#popover-button:hover{
+    border: 8px solid var(--red);
+}
 .centering{
     display: flex;
     justify-content: end;
