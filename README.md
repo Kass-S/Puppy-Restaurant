@@ -1,7 +1,7 @@
 # Hamster Hotel
 
 ### Kassandra Spacek / Santiago Montanez / Gianpaolo Reinares
-### 11/6/2024
+### 11/7/2024
 # "Challenge - Puppy Restaurant"
 ### Description: 
 In this project, you will take the following mockup and make it into a fully functioning and fully responsive website.
