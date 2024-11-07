@@ -203,7 +203,7 @@ body{
 
 /*About page media queries start*/
 
-@media screen and (min-width: 992px){
+@media (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
     }
@@ -282,7 +282,7 @@ body{
 
 
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
     .header-flex{
         display: flex;
         justify-content: end;
@@ -319,6 +319,14 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto auto auto auto;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 601px){
+    .catering-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: reapeat(3, 1fr);
         gap: 12px;
     }
 }
