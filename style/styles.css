@@ -5,6 +5,12 @@
     --red: #980051;
 }
 
+body{
+    background-image: url('../assets/bgtexture.jpg');
+    background-repeat: repeat;
+}
+
+/* Text */
 @font-face{
     font-family: 'FugazOne';
     src: url(/assets/fonts/FugazOne-Regular.ttf);
@@ -23,12 +29,6 @@
 .text-xs{
     font-size: 14px;
 }
-
-body{
-    background-image: url('../assets/bgtexture.jpg');
-    background-repeat: repeat;
-}
-
 
 .fugaz-text{
     font-family: 'FugazOne';
@@ -50,8 +50,28 @@ body{
     display: flex;
     justify-content: space-around;
 }
+/* text */
+
 
 /* Header */
+#popoverbtn{
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    background-color: #FFFFFF00;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.15); 
+}
+
 .nav-btn{
     font-family: 'FugazOne';
     color: var(--dark-red);
@@ -93,6 +113,7 @@ body{
 }
 /* footer */
 
+
 /* Index */
 .index-hero{
     width: 100%;   
@@ -100,9 +121,7 @@ body{
 /* index */
 
 
-
 /* Menu */
-
 .menu-items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -138,27 +157,12 @@ body{
     display: flex;
     justify-content: end;
 }
-#popoverbtn{
-    text-align: center;
-    border: none;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    display: flex;
-    background-color: #FFFFFF00;
-}
-.zoom{
-    transition: transform .2s;
-}
-.zoom:hover {
-  transform: scale(1.15); 
-}
 
 .border-bottom-line{
     border-bottom: 1px solid var(--red);
 }
+/* menu */
+
 
 /* Catering */
 #Catering-Maine{
@@ -176,6 +180,8 @@ body{
     grid-template-rows: auto auto auto;
     gap: 12px;
 }
+/* catering */
+
 
 /* Photos */
 .photo-title-text{
@@ -201,7 +207,7 @@ body{
     grid-template-rows: auto auto auto auto;
     gap: 12px;
 }
-
+/* photos */
 
 
 @media (max-width:1199px) and (min-width:993px) {
