@@ -10,6 +10,12 @@ body{
     background-repeat: repeat;
 }
 
+.around-center-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* Text */
 @font-face{
     font-family: 'FugazOne';
@@ -43,12 +49,6 @@ body{
 .montauk-text-light{
     font-family: 'Montauk-Light';
     color: var(--dark-red);
-}
-
-
-.around-center-display{
-    display: flex;
-    justify-content: space-around;
 }
 /* text */
 
@@ -147,12 +147,6 @@ body{
     width: 100%;
 }
 
-.popoverimage{
-    border: 8px solid var(--light);
-}
-#popover-button:hover{
-    border: 8px solid var(--red);
-}
 .centering{
     display: flex;
     justify-content: end;
@@ -201,6 +195,15 @@ body{
     border: none;
     background-color: rgba(245, 245, 220, 0);
 }
+
+.popoverimage{
+    border: 8px solid var(--light);
+}
+
+#popover-button:hover{
+    border: 8px solid var(--red);
+}
+
 .photo-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
