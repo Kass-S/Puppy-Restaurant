@@ -45,6 +45,7 @@ body{
     color: var(--dark-red);
 }
 
+
 .around-center-display{
     display: flex;
     justify-content: space-around;
@@ -201,20 +202,8 @@ body{
     gap: 12px;
 }
 
-/*About page media queries start*/
 
-@media (min-width: 992px){
-    .About-Page-Card-Three{
-        padding-right: 0px;
-    }
-    .About-Page-Card-Four{
-        padding-left: 0px;
-    }
-    .img-resize{
-        height: 368px;
-        object-fit: fill;
-    }
-}
+
 @media (max-width:1199px) and (min-width:993px) {
     .About-Page-Header-Image{
         padding-right: 0px;
@@ -246,6 +235,55 @@ body{
         padding-left: 0px;
     }
 }
+
+@media (min-width: 992px){
+    .About-Page-Card-Three{
+        padding-right: 0px;
+    }
+    .About-Page-Card-Four{
+        padding-left: 0px;
+    }
+    .img-resize{
+        height: 368px;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 768px){
+    .header-flex{
+        justify-content: end;
+    }
+    
+    .around-center-display{
+        justify-content: center;
+    }
+
+    .footer-display-logo{
+        align-items: center;
+    }
+
+    .footer-display-address{
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .company-img{
+        width: 75%;
+    }
+
+    .menu-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto auto auto;
+        gap: 12px;
+    }
+    .photo-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+}
+
 @media (max-width: 764px) {
     .About-Page-Header-Image{
         padding-left: 0px;
@@ -273,53 +311,6 @@ body{
     .About-Page-Card-Six{
         padding-left: 0px;
         padding-right: 0px;
-    }
-}
-/*About page media queries*/
-
-
-/* photos */
-
-
-
-@media (max-width: 768px){
-    .header-flex{
-        display: flex;
-        justify-content: end;
-    }
-    
-    .around-center-display{
-        display: flex;
-        justify-content: center;
-    }
-
-    .footer-display-logo{
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-display-address{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-    .company-img{
-        width: 75%;
-    }
-
-    .menu-items{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto auto auto auto;
-        gap: 12px;
-    }
-    .photo-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto auto auto auto;
-        gap: 12px;
     }
 }
 
