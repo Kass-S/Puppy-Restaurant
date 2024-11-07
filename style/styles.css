@@ -5,6 +5,18 @@
     --red: #980051;
 }
 
+body{
+    background-image: url('../assets/bgtexture.jpg');
+    background-repeat: repeat;
+}
+
+.around-center-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Text */
 @font-face{
     font-family: 'FugazOne';
     src: url(/assets/fonts/FugazOne-Regular.ttf);
@@ -24,12 +36,6 @@
     font-size: 14px;
 }
 
-body{
-    background-image: url('../assets/bgtexture.jpg');
-    background-repeat: repeat;
-}
-
-
 .fugaz-text{
     font-family: 'FugazOne';
     color: var(--dark-red);
@@ -44,13 +50,28 @@ body{
     font-family: 'Montauk-Light';
     color: var(--dark-red);
 }
+/* text */
 
-.around-center-display{
-    display: flex;
-    justify-content: space-around;
-}
 
 /* Header */
+#popoverbtn{
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    background-color: #FFFFFF00;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.15); 
+}
+
 .nav-btn{
     font-family: 'FugazOne';
     color: var(--dark-red);
@@ -92,6 +113,7 @@ body{
 }
 /* footer */
 
+
 /* Index */
 .index-hero{
     width: 100%;   
@@ -99,9 +121,7 @@ body{
 /* index */
 
 
-
 /* Menu */
-
 .menu-items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,37 +147,16 @@ body{
     width: 100%;
 }
 
-.popoverimage{
-    border: 8px solid var(--light);
-}
-#popover-button:hover{
-    border: 8px solid var(--red);
-}
 .centering{
     display: flex;
     justify-content: end;
-}
-#popoverbtn{
-    text-align: center;
-    border: none;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    display: flex;
-    background-color: #FFFFFF00;
-}
-.zoom{
-    transition: transform .2s;
-}
-.zoom:hover {
-  transform: scale(1.15); 
 }
 
 .border-bottom-line{
     border-bottom: 1px solid var(--red);
 }
+/* menu */
+
 
 /* Catering */
 #Catering-Maine{
@@ -175,6 +174,8 @@ body{
     grid-template-rows: auto auto auto;
     gap: 12px;
 }
+/* catering */
+
 
 /* Photos */
 .photo-title-text{
@@ -194,46 +195,24 @@ body{
     border: none;
     background-color: rgba(245, 245, 220, 0);
 }
+
+.popoverimage{
+    border: 8px solid var(--light);
+}
+
+#popover-button:hover{
+    border: 8px solid var(--red);
+}
+
 .photo-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto auto auto;
     gap: 12px;
 }
+/* photos */
 
-#shake:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
 
-/*About page media queries start*/
-
-@media (min-width: 992px){
-    .About-Page-Card-Three{
-        padding-right: 0px;
-    }
-    .About-Page-Card-Four{
-        padding-left: 0px;
-    }
-    .img-resize{
-        height: 368px;
-        object-fit: fill;
-    }
-}
 @media (max-width:1199px) and (min-width:993px) {
     .About-Page-Header-Image{
         padding-right: 0px;
@@ -265,6 +244,55 @@ body{
         padding-left: 0px;
     }
 }
+
+@media (min-width: 992px){
+    .About-Page-Card-Three{
+        padding-right: 0px;
+    }
+    .About-Page-Card-Four{
+        padding-left: 0px;
+    }
+    .img-resize{
+        height: 368px;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 768px){
+    .header-flex{
+        justify-content: end;
+    }
+    
+    .around-center-display{
+        justify-content: center;
+    }
+
+    .footer-display-logo{
+        align-items: center;
+    }
+
+    .footer-display-address{
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .company-img{
+        width: 75%;
+    }
+
+    .menu-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto auto auto;
+        gap: 12px;
+    }
+    .photo-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+}
+
 @media (max-width: 764px) {
     .About-Page-Header-Image{
         padding-left: 0px;
@@ -292,53 +320,6 @@ body{
     .About-Page-Card-Six{
         padding-left: 0px;
         padding-right: 0px;
-    }
-}
-/*About page media queries*/
-
-
-/* photos */
-
-
-
-@media (max-width: 768px){
-    .header-flex{
-        display: flex;
-        justify-content: end;
-    }
-    
-    .around-center-display{
-        display: flex;
-        justify-content: center;
-    }
-
-    .footer-display-logo{
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-display-address{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-    .company-img{
-        width: 75%;
-    }
-
-    .menu-items{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto auto auto auto;
-        gap: 12px;
-    }
-    .photo-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto auto auto auto;
-        gap: 12px;
     }
 }
 
