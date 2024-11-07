@@ -218,7 +218,7 @@ body{
         padding-right: 0px;
     }
     .img-resize{
-        height: 307.99px;
+        max-height: 307.99px;
         object-fit: fill;
     }
     
