@@ -212,6 +212,27 @@ body{
 }
 /* photos */
 
+@media (min-width:1400px) {
+    .About-Page-Header-Image{
+        padding-right: 0px;
+    }
+    .img-resize{
+        max-height: 428px;
+        object-fit: fill;
+    }
+    
+}
+
+@media (max-width:1399px) and (min-width:1200px) {
+    .About-Page-Header-Image{
+        padding-right: 0px;
+    }
+    .img-resize{
+        max-height: 368px;
+        object-fit: fill;
+    }
+    
+}
 
 @media (max-width:1199px) and (min-width:993px) {
     .About-Page-Header-Image{
@@ -251,10 +272,6 @@ body{
     }
     .About-Page-Card-Four{
         padding-left: 0px;
-    }
-    .img-resize{
-        height: 368px;
-        object-fit: fill;
     }
 }
 
