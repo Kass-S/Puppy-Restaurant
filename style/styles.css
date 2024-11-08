@@ -271,12 +271,16 @@ body{
     }
 }
 
-@media (min-width: 992px){   
+@media (min-width: 992px){
     .About-Page-Card-Three{
         padding-right: 0px;
     }
     .About-Page-Card-Four{
         padding-left: 0px;
+    }
+    .img-resize{
+        max-height: 307.99px;
+        object-fit: fill;
     }
 }
 
