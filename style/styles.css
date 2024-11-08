@@ -253,21 +253,30 @@ body{
     .About-Page-Header-Image{
         padding-right: 0px;
     }
+    .About-Page-Card-One{
+        padding-right: 6px;
+    }
     .About-Page-Card-Two{
+        padding-left: 6px;
         padding-right: 0px;
         border-radius: 50%;
     }
     .About-Page-Card-Three{
         padding-left: 0px;
-        padding-right: 12px;
+        padding-right: 6px;
         
     }
     .About-Page-Card-Four{
         padding-right: 0px;
-        padding-left: 12px;
+        padding-left: 6px;
     }
     .About-Page-Card-Five{
         padding-left: 0px;
+        padding-right: 6px;
+    }
+    .About-Page-Card-Six{
+        padding-left: 6px;
+        padding-right: 0px;
     }
 }
 
