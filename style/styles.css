@@ -245,7 +245,7 @@ body{
     }
     
 }
-@media  (max-width:992px) and (min-width:764px){
+@media  (max-width:991px) and (min-width:764px){
     .company-img{
         width: 50%;
     }
@@ -278,6 +278,9 @@ body{
     .About-Page-Card-Four{
         padding-left: 0px;
     }
+}
+
+@media (width: 992px){
     .img-resize{
         max-height: 307.99px;
         object-fit: fill;
