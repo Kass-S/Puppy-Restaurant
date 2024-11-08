@@ -101,6 +101,7 @@ body{
 
 .company-img{
     width: 25%;
+    aspect-ratio: 1/.4;
 }
 
 .footer-display-logo{
@@ -224,6 +225,10 @@ body{
     
 }
 @media  (max-width:992px) and (min-width:764px){
+    .company-img{
+        width: 50%;
+    }
+
     .About-Page-Header-Image{
         padding-right: 0px;
     }
@@ -245,7 +250,7 @@ body{
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px){   
     .About-Page-Card-Three{
         padding-right: 0px;
     }
